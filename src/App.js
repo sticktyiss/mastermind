@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import './Mastermind';
+import Mastermind from './Mastermind';
 
 function App() {
+  // ADD PASSWORD FUNCTIONALITY TO BE COOL
+  // const unlock = password => {
+  //   if (password == 19) {
+      
+  //   }
+  // }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <fieldset>
+          <legend>Unlock the game</legend>
+          <label for="What's 9 + 10">Password</label>
+          <input type='password' />
+        </fieldset> */}
       </header>
+      <Mastermind />
     </div>
   );
 }
