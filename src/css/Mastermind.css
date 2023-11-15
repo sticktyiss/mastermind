@@ -5,5 +5,10 @@ table ul {
   display: flex;
   flex-direction: row;
 }
+table ul li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
 
 /*# sourceMappingURL=Mastermind.css.map */
